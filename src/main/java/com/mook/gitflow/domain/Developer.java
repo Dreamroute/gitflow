@@ -2,6 +2,12 @@ package com.mook.gitflow.domain;
 
 import java.io.Serializable;
 
+/**
+ * 增加序列化
+ * 
+ * @author wangdehai
+ *
+ */
 public class Developer implements Serializable {
 
     /**
