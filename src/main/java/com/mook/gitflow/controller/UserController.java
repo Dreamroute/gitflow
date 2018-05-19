@@ -3,6 +3,11 @@ package com.mook.gitflow.controller;
 import com.mook.gitflow.domain.User;
 import com.mook.gitflow.service.UserService;
 
+/**
+ * 
+ * @author wangdehai
+ *
+ */
 public class UserController {
     
     private UserService userService;
