@@ -12,10 +12,10 @@ public class UserController {
         return "insert user.";
     }
     
-    public String select(Long id) {
+    public void select(Long id) {
         System.err.println("select user by id, id: " + id);
         System.err.println("fix bug.");
-        return "select user by Id, id: " + id;
+        System.err.println("select user by Id, id: " + id);
     }
     
 }
