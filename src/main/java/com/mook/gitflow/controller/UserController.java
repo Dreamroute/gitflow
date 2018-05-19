@@ -14,6 +14,7 @@ public class UserController {
     
     public String select(Long id) {
         System.err.println("select user by id, id: " + id);
+        System.err.println("fix bug.");
         return "select user by Id, id: " + id;
     }
     
